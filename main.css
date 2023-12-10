@@ -1,0 +1,117 @@
+@media screen and (max-width: 485px) { 
+    .container { 
+       padding: 0 5px; 
+    }
+
+    body {
+        background-image: url('bg.svg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        box-sizing: border-box;
+    }
+
+    .parent-container {
+        width: 100%;
+        text-align: center;
+    }
+
+    .main-card {
+        background-color: antiquewhite;
+        width: 95%;
+        height: auto;
+        border-radius: 5px;
+        margin: 15px auto;
+    }
+
+    h1 {
+        margin: 10px;
+        font-family: 'Helvetica', sans-serif;
+    }
+
+    p {
+        font-size: small;
+        text-align: justify;
+        text-justify: inter-word;  
+        margin: 10px 10px 10px 10px; /* Added units and fixed margin values */
+        font-family: 'cursive', cursive;
+    }
+
+    .image-container {
+        background-color: antiquewhite;
+        width: 95%;
+        height: auto;
+        border-radius: 5px;
+        margin: 15px auto; 
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+        padding: 10px;
+    }
+
+    img {
+        max-width: 100%;
+        height: auto;
+        display: block;
+        border-radius: 8px;
+    }
+
+    .vid-container {
+        background-color: antiquewhite;
+        width: 95%;
+        height: auto;
+        border-radius: 5px;
+        margin: 15px auto; 
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+        padding: 10px;
+    }
+
+    video {
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+
+    .flowers-container {
+        background-color: antiquewhite;
+        width: 95%;
+        height: auto;
+        border-radius: 5px;
+        margin: 15px auto;
+        padding: 5px 0 5px 0; /* Added units */
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    #duo {
+        width: 50%;
+        margin: 10px;
+        max-width: 100%;
+        margin-right: 20px;
+    }
+
+    button {
+        padding: 10px 20px;
+        background-color: #ff69b4;
+        border: none;
+        border-radius: 8px;
+        font-family: 'cursive', cursive;
+        font-size: 1.2em;
+        color: #fff;
+        transition: background-color 0.3s ease-in-out;
+    }
+
+    a {
+        text-decoration: none;
+    }
+}
+
+
+@media screen and (min-width: 485px)
+{
+    body {
+        display: none;
+    }
+}
